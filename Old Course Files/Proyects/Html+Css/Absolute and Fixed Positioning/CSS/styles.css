@@ -1,0 +1,33 @@
+/***************************Tag Selectors***********************************/
+body {
+  margin: 0;
+}
+/***************************Classes Selectors*******************************/
+.red {
+background-color: red;
+width: 200px;
+height: 200px;
+position: absolute;
+right: 0;
+}
+.blue {
+background-color: blue;
+width: 200px;
+height: 200px;
+position: absolute;
+left: 200px;
+top: 0;
+}
+.yellow {
+background-color: yellow;
+width: 200px;
+height: 200px;
+position: fixed;
+top: 0;
+}
+.grey {
+background-color: grey;
+width: 600px;
+height: 600px;
+position: relative;
+}
