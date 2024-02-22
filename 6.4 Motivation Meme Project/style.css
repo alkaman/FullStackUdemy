@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+#title{
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+}
+#motivationalPicture{
+    border: 5px white solid;
+    width: 100%
+}
+#motivationalParagraph{
+    text-align: center;
+    color:white;
+}
+#containter{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+}

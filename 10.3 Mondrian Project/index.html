@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    body{
+      margin: 0;
+      border: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .painting-container{
+      display: grid;
+      background-color: #000;
+      height: 746px;
+      width: 748px;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px;
+    }
+    .painting-one{
+      background-color: #E72F24;
+    }
+    .painting-two{
+      background-color: #F0F1EC;
+      grid-column: 2 / 5;
+    }
+    .painting-three{
+      background-color: #F0F1EC;
+      grid-row: 2 /4;
+    }
+    .painting-four{
+      background-color: #F0F1EC;
+      grid-column: 2 / 4;
+      grid-row: 2 /4;
+    }
+    .painting-five{
+      background-color: #004592;
+    }
+    .painting-six{
+      background-color: #F0F1EC;
+      grid-row: 3 / 5;
+      border-top: #000 solid 10px;
+    }
+    .painting-seven{
+      background-color: #F9D01E;
+    }
+    .painting-eight{
+      background-color: #232629;
+    }
+    .painting-nine{
+      background-color: #F0F1EC;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+  <div class="painting-container">
+    <div class="painting-one">
+
+    </div>
+    <div class="painting-two">
+
+    </div>
+    <div class="painting-three">
+
+    </div>
+    <div class="painting-four">
+
+    </div>
+    <div class="painting-five">
+      <div class="painting-five-one">
+      
+      </div>
+      <div class="painting-five-two">
+      
+      </div>
+    </div>
+    <div class="painting-six">
+
+    </div>
+    <div class="painting-seven">
+
+    </div>
+    <div class="painting-eight">
+
+    </div>
+    <div class="painting-nine">
+
+    </div>
+  </div>
+</body>
+
+</html>
