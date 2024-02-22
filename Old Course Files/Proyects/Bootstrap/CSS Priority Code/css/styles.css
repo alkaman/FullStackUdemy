@@ -1,0 +1,30 @@
+h1 {
+color: red;
+  color: yellow;
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+
+#h2-id {
+  color: yellow;
+}
+
+.h2-class {
+  color: blue;
+}
+
+.h3-class1 {
+  color: green;
+}
+
+.h3-class2 {
+   color: orange;
+}
+
+.css-exterior {
+  text-align: center;
+  color: red;
+}

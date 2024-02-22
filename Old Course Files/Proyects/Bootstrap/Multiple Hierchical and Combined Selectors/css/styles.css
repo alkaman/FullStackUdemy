@@ -1,0 +1,20 @@
+/* Multiple Example */
+h1,h2,h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Hierarchical Example */
+.container #heading {
+  color: red;
+}
+.container h2 {
+  color: green;
+}
+/* Combined Example */
+/* Hierarchical Example */
+.container.middle {
+  text-align: center;
+}
+h3.title {
+  color: blue;
+}

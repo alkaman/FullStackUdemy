@@ -1,0 +1,27 @@
+/* Tag Selectors */
+div {
+  height: 100px;
+  width:  100px;
+  border: 1px solid;
+}
+
+/* Classes Selectors */
+.red {
+  background-color: red;
+  position: absolute;
+  z-index: -1;
+}
+.blue {
+  background-color: blue;
+  position: absolute;
+  z-index: 0; /*Cero es el Default*/
+  left: 40px;
+  top: 40px;
+}
+.yellow {
+  background-color: yellow;
+  position: absolute;
+  z-index: 1;
+  left: 80px;
+  top: 80px;
+}
