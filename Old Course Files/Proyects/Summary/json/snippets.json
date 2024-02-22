@@ -1,0 +1,13 @@
+{
+    "html": {
+      "snippets": {
+        "cl": "{<!-- Clase YY: Title -->}div>br+{}h1{Clase YY: }+a{Content Link Name}+p>br^{}h2{Subtitle}+p>br^{}h3{Examples}+p>br^br",
+        "sec": "{<!--*************************************************Sección Y: Title*****************************************************-->}div>hr[size=3 noshade]+h1{Sección Y: Title}+hr[size=3 noshade]{}+{}{<!-- Clase YY: Title -->}+div>br+{}h1{Clase YY: }+a{Content Link Name}+p>br^{}h2{Subtitle}+p>br^{}h3{Examples}+p>br^br"
+      }
+    },
+    "css": {
+      "snippets": {
+      }
+    }
+  }
+

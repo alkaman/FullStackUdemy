@@ -1,0 +1,15 @@
+/**********************Tag Selectors***************************/
+body {
+    background-color: #E4F9F5;
+}
+hr {
+  border: none;
+  height: 5px;
+  color: grey;
+  background-color: grey;
+  /*Ver como applicar el atributo de hr en html noshade*/
+}
+
+h1 {
+  text-decoration: underline;
+}

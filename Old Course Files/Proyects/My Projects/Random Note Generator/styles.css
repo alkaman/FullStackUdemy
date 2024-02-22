@@ -1,0 +1,73 @@
+.header {
+  height: 200px;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.title {
+  font-size: 50px;
+  font-style: "Montserrat";
+}
+
+.main {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  font-size: 500%;
+}
+
+.notesDisplay {
+  margin: 0 auto;
+  background-color: #2dc899;
+  border: 3px solid #2d7a5f;
+  border-radius: 11px;
+}
+
+.noteSelector {
+  width: 25%;
+  margin: auto;
+  background-color: #2dc899;
+  border: 3px solid #2d7a5f;
+  border-radius: 11px;
+  font-size: 20px;
+}
+
+.startButton {
+  color: #ffffff;
+  background-color: #2dc899;
+  font-size: 20px;
+  border: 3px solid #2d7a5f;
+  border-radius: 11px;
+  padding: 15px 50px;
+  cursor: pointer
+}
+
+.startButton:hover {
+  color: #2d7a5f;
+}
+
+.stopButton {
+  color: #ffffff;
+  background-color: #2dc899;
+  font-size: 20px;
+  border: 3px solid #2d7a5f;
+  border-radius: 11px;
+  padding: 15px 50px;
+  cursor: pointer
+}
+
+.stopButton:hover {
+  color: #2d7a5f;
+}
+
+.timeInput {
+  text-align: center;
+  color: #ffffff;
+  background-color: #2dc899;
+  font-size: 20px;
+  border: 3px solid #2d7a5f;
+  border-radius: 11px;
+  padding: 15px 50px;
+  cursor: pointer
+}

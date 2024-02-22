@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Random Note Generator</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- Project Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title">Random Note Generator</h1>
+  </div>
+
+  <div class="main">
+    <h1 class="notesDisplay">-</h1>
+    <button type="button" class="startButton" name="startButton">Start</button>
+    <button type="button" class="stopButton" name="stopButton">Stop</button>
+    <input type="text" class="timeInput" name="timeInput" required
+       minlength="1" maxlength="3" size="3">
+  </div>
+
+  <div class="footer">
+    <div class="noteSelector">
+      <table>
+        <thead>
+          White Keys
+        </thead>
+        <tbody>
+          <tr>
+            <td class="note W1">C</td>
+            <td> <input class="checkBox W1" type="checkbox"> </td>
+            <td class="note W1">D</td>
+            <td> <input class="checkBox W2"  type="checkbox"> </td>
+            <td class="note W1">E</td>
+            <td> <input class="checkBox W3"  type="checkbox"> </td>
+            <td class="note W1">F</td>
+            <td> <input class="checkBox W4"  type="checkbox"> </td>
+            <td class="note W1">G</td>
+            <td> <input class="checkBox W5"  type="checkbox"> </td>
+            <td class="note W1">A</td>
+            <td> <input class="checkBox W6"  type="checkbox"> </td>
+            <td class="note W1">B</td>
+            <td> <input class="checkBox W7"  type="checkbox"> </td>
+          </tr>
+        </tbody>
+        <tfoot>
+        </tfoot>
+
+      </table>
+
+      <table>
+        <tbody>
+          <thead>
+            Black Keys
+          </thead>
+          <tr>
+            <td>C#</td>
+            <td> <input class="checkBoxSus1"  type="checkbox"> </td>
+            <td>D#</td>
+            <td> <input class="checkBoxSus2"  type="checkbox"> </td>
+            <td>F#</td>
+            <td> <input class="checkBoxSus3"  type="checkbox"> </td>
+            <td>G#</td>
+            <td> <input class="checkBoxSus4"  type="checkbox"> </td>
+            <td>A#</td>
+            <td> <input class="checkBoxSus5"  type="checkbox"> </td>
+          </tr>
+          <tr>
+            <td>Db</td>
+            <td> <input class="checkBoxB1"  type="checkbox"> </td>
+            <td>Eb</td>
+            <td> <input class="checkBoxB2"  type="checkbox"> </td>
+            <td>Gb</td>
+            <td> <input class="checkBoxB3"  type="checkbox"> </td>
+            <td>Ab</td>
+            <td> <input class="checkBoxB4"  type="checkbox"> </td>
+            <td>Bb</td>
+            <td> <input class="checkBoxB5"  type="checkbox"> </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+    </div>
+  </div>
+
+
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
